@@ -6,7 +6,7 @@ set softtabstop=4
 set shiftwidth=4
 
 " Numeration
-set number
+" set number
 
 " Overall indentation
 set foldcolumn=0

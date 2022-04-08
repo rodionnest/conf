@@ -104,5 +104,16 @@ alias ll='ls -lh --group-directories-first'
 alias ls='ls --color=tty --group-directories-first'
 alias l='ls -lah --group-directories-first'
 
+alias pyenvc='python -m venv env'                                                                   
+alias pyenva='source env/bin/activate'                                                                  
+                                                                                                         
+alias pmpcsu='python manage.py createsuperuser'                                                      
+alias pmpsa='python manage.py startapp'                                                              
+alias pmprs='python manage.py runserver 0.0.0.0:8000'                                                             
+alias pmpmig='python manage.py migrate'                                                              
+alias pmpmm='python manage.py makemigrations'                                                        
+alias pmpsh='python manage.py shell'
+
+
 PS1="%{$fg[green]%}%m@%n%{$fg[red]%}$ %{$fg[blue]%}%d %{$fg[yellow]%}>%{$reset_color%}"
 autoload -U colors && colors

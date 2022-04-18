@@ -113,7 +113,9 @@ alias pmprs='python manage.py runserver 0.0.0.0:8000'
 alias pmpmig='python manage.py migrate'                                                              
 alias pmpmm='python manage.py makemigrations'                                                        
 alias pmpsh='python manage.py shell'
-
+alias pipinstdj='pip install django autopep8 flake8 mypy django-environ'
+alias pipfrtxt='pip freeze >requirements.txt'
+alias djasp='django-admin startproject'
 
 PS1="%{$fg[green]%}%m@%n%{$fg[red]%}$ %{$fg[blue]%}%d %{$fg[yellow]%}>%{$reset_color%}"
 autoload -U colors && colors

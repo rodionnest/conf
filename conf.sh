@@ -2,4 +2,5 @@
 rm -rf .git
 find ./files -name '.*' -exec mv -t ../ {} \;
 rmdir files
-rm -- "$0" 
+cd ..
+rm ./conf/conf.sh

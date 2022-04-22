@@ -117,5 +117,9 @@ alias pipinstdj='pip install django autopep8 flake8 mypy django-environ'
 alias pipfrtxt='pip freeze >requirements.txt'
 alias djasp='django-admin startproject'
 
+alias py='python3'
+
 PS1="%{$fg[green]%}%m@%n%{$fg[red]%}$ %{$fg[blue]%}%d %{$fg[yellow]%}>%{$reset_color%}"
 autoload -U colors && colors
+setopt PROMPT_SUBST
+export PATH=$PATH:/usr/bin/

@@ -104,6 +104,8 @@ alias ll='ls -lh --group-directories-first'
 alias ls='ls --color=tty --group-directories-first'
 alias l='ls -lah --group-directories-first'
 
+alias monoff='xset dpms force off'
+
 alias pyenvc='python -m venv env'                                                                   
 alias pyenva='source env/bin/activate'                                                                  
                                                                                                          
